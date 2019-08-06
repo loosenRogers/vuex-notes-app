@@ -12,9 +12,6 @@
 import { mapMutations } from 'vuex'
 
 export default {
-  mounted(){
-    // console.log(this.activeNote)
-  },
   computed: {
     activeNote() {
       return this.$store.getters.activeNote

@@ -10,13 +10,6 @@
 
 <script>
 export default {
-  data(){
-    return {
-    }
-  },
-  mounted(){
-    // console.log(this.activeNote)
-  },
   computed: {
     activeNote() {
       return this.$store.getters.activeNote
